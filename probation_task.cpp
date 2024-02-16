@@ -3,6 +3,11 @@
 #include <vector>
 #include <fstream>
 
+// Overall, the code follows logic and I can see your efforts, which is appreciated.
+// Keep the code clean, comment in english, pay attention to the curly parentheses
+// Choose one exact coding style and keep it during the whole coding session
+// Make your code modular, have separate files for declarations and definitions
+
 void swap(std::vector<std::string>& persons, int i, int j) 
 {
 	std::string tmp = persons[i];
@@ -10,6 +15,7 @@ void swap(std::vector<std::string>& persons, int i, int j)
 	persons[j] = tmp;
 }
 
+// improve the performance of bubble sort, learn about other sorting algorithms
 void bubble_sort(std::vector<std::string>& persons)
 {
 	int size = persons.size();
@@ -23,6 +29,7 @@ void bubble_sort(std::vector<std::string>& persons)
 	}
 }
 
+// the idea to use binary search is commendable
 bool binary_search(const std::vector<std::string>& persons, const std::string target)
 {
 	int begin = 0;
